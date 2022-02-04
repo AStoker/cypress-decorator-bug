@@ -1,4 +1,9 @@
 {
   "baseUrl": "http://localhost:9000",
-  "video": false
+  "video": false,
+  "integrationFolder": "./",
+  "testFiles": [
+    "src/**/*.spec.js",
+    "cypress/integration/**/*.js"
+  ]
 }

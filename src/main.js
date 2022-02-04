@@ -1,5 +1,6 @@
 import Aurelia, { /*, StyleConfiguration*/ } from 'aurelia';
 import { MyApp } from './my-app';
+import { TestAttribute } from './test-attribute';
 // import shared from './shared.scss';
 
 Aurelia
@@ -9,5 +10,6 @@ Aurelia
     sharedStyles: [shared]
   }))
   */
+  .register(TestAttribute)
   .app(MyApp)
   .start();
